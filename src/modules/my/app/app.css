@@ -36,3 +36,29 @@ img {
 .greeting {
     height: 75px;
 }
+h1 {
+  text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.list {
+  /* overflow: scroll; */
+  border: 0px solid black,;
+  height: 600px;
+}
+.item {
+  backface-visibility: hidden;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #9eebcf;
+  display: inline-block;
+  box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 20%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.img_item {
+  max-width: 100%;
+  border-style: none;
+}
