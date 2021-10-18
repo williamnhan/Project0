@@ -12,7 +12,7 @@
     </div>
   </template>
   <template if:true={hiddenList}>
-    <div id={robot.id} class="item grow" onclick={handleBack}>
+    <div id={robot.id} class="item" onclick={handleBack}>
       <img alt={robot.name} src={robot.img} class="img_item" width="400px" height="400px"/>
       <div>
         <h2>{robot.name}</h2>
